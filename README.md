@@ -1,5 +1,4 @@
-# nlp
-NamTran2299
+NLP - Tokenizer
 ======
 
 A Vietnamese word segmentation tool in Java
