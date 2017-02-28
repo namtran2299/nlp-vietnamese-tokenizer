@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>DicMap.h</itemPath>
+      <itemPath>Feats.h</itemPath>
+      <itemPath>FeaturesSelection.h</itemPath>
+      <itemPath>Machine.h</itemPath>
+      <itemPath>PredictorJNI.h</itemPath>
+      <itemPath>StrMap.h</itemPath>
+      <itemPath>SylMap.h</itemPath>
+      <itemPath>configure.h</itemPath>
+      <itemPath>learner.h</itemPath>
+      <itemPath>predictor.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>DicMap.cpp</itemPath>
+      <itemPath>Feats.cpp</itemPath>
+      <itemPath>FeaturesSelection.cpp</itemPath>
+      <itemPath>Machine.cpp</itemPath>
+      <itemPath>PredictorJNI.cpp</itemPath>
+      <itemPath>StrMap.cpp</itemPath>
+      <itemPath>SylMap.cpp</itemPath>
+      <itemPath>learner.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>preditctor.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>liblinear/blas/blas.h</itemPath>
+    <itemPath>liblinear/blas/blasp.h</itemPath>
+    <itemPath>liblinear/blas/daxpy.c</itemPath>
+    <itemPath>liblinear/blas/ddot.c</itemPath>
+    <itemPath>liblinear/blas/dnrm2.c</itemPath>
+    <itemPath>liblinear/blas/dscal.c</itemPath>
+    <itemPath>liblinear/linear.cpp</itemPath>
+    <itemPath>liblinear/linear.h</itemPath>
+    <itemPath>liblinear/tron.cpp</itemPath>
+    <itemPath>liblinear/tron.h</itemPath>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="2">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>/opt/jdk1.7.0_75/include</pElem>
+            <pElem>/opt/jdk1.7.0_75/include/linux</pElem>
+          </incDir>
+          <commandLine>-shared</commandLine>
+        </cTool>
+        <ccTool>
+          <incDir>
+            <pElem>/opt/jdk1.7.0_75/include</pElem>
+            <pElem>/opt/jdk1.7.0_75/include/linux</pElem>
+          </incDir>
+          <commandLine>-shared</commandLine>
+        </ccTool>
+        <linkerTool>
+          <output>${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/vnwordsegment.so</output>
+        </linkerTool>
+      </compileType>
+      <item path="DicMap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DicMap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Feats.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Feats.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FeaturesSelection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FeaturesSelection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Machine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Machine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PredictorJNI.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PredictorJNI.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StrMap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StrMap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SylMap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SylMap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="configure.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="learner.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="learner.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="liblinear/blas/blas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="liblinear/blas/blasp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="liblinear/blas/daxpy.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="liblinear/blas/ddot.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="liblinear/blas/dnrm2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="liblinear/blas/dscal.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="liblinear/linear.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="liblinear/linear.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="liblinear/tron.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="liblinear/tron.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="predictor.h" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="preditctor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>/opt/jdk1.7.0_75/include</pElem>
+            <pElem>/opt/jdk1.7.0_75/include/linux</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>/opt/jdk1.7.0_75/include</pElem>
+            <pElem>/opt/jdk1.7.0_75/include/linux</pElem>
+          </incDir>
+          <commandLine>-shared -m32</commandLine>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="DicMap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="DicMap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Feats.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Feats.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="FeaturesSelection.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="FeaturesSelection.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Machine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Machine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="PredictorJNI.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="PredictorJNI.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="StrMap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="StrMap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="SylMap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="SylMap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="configure.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="learner.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="learner.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="liblinear/blas/blas.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="liblinear/blas/blasp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="liblinear/blas/daxpy.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="liblinear/blas/ddot.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="liblinear/blas/dnrm2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="liblinear/blas/dscal.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="liblinear/linear.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="liblinear/linear.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="liblinear/tron.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="liblinear/tron.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="predictor.h" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="preditctor.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
